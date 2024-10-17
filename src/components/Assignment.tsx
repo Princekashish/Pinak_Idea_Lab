@@ -26,7 +26,7 @@ const Assignment: React.FC = () => {
         },
       ]
   return (
-    <div id="assignment" className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full p-5 ">
+    <div id="assignment" className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full p-5 overflow-hidden">
       <div className="p-10 bg-purple-900">
         <h2 className="text-4xl font-bold text-white mb-8">OUR SERVICES</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
