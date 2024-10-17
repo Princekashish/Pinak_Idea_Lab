@@ -3,14 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Princekashish.github.io/Pinak_Idea_Lab",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Princekashish.github.io/Pinak_Idea_Lab",
+  
   "dependencies": {
     "framer-motion": "^11.11.9",
     "lucide-react": "^0.453.0",
